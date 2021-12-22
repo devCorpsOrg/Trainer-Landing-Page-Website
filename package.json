@@ -1,0 +1,24 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "description": "Amit Dagar Personal Landing Page Site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devCorpsOrg/Trainer-Landing-Page-Website.git"
+  },
+  "author": "DevCorps IT Solutions and Services",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/devCorpsOrg/Trainer-Landing-Page-Website/issues"
+  },
+  "homepage": "https://github.com/devCorpsOrg/Trainer-Landing-Page-Website#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2"
+  }
+}
