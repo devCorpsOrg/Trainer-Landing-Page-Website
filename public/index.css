@@ -868,9 +868,8 @@ body {
   }
   .Ques{
     margin-top: 0.5vw;
-    font-size:x-large;
+    font-size: x-large;
     color: rgb(255, 255, 255);
-    height: 3vh;
   }
   .hs{
     background-color: #009970;
@@ -915,12 +914,8 @@ body {
 }
 .ownerimg{
   width: 40vh;
-  height: 40vh;
+  height: 44vh;
   border-radius: 50%;
-  margin-top: 30px;
-  margin-right: 30px;
-  margin-bottom: 20px;
-  margin-left: 30px;
 }
 .AboutOwner{  
   text-align:  center;
@@ -938,4 +933,29 @@ body {
 }
 .masterclass{
   margin-top: 50px;
+}
+
+/* About us */
+@media(min-width: 900px){
+  .ownergrid{
+    float: left;
+    margin-left: 15%;
+  }
+  .mssggrid{
+    width: 60%;
+    word-wrap: normal;
+    margin-left: 36%;
+  }
+}
+@media(max-width: 900px) and (min-width: 550px)
+{
+    .ownerimg{
+      margin-left: 35%;
+    }
+}
+@media(max-width: 550px) and (min-width: 100px)
+{
+  .ownerimg{
+    margin-left: 25%;
+  }
 }
