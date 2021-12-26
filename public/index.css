@@ -959,7 +959,6 @@ body {
     margin-left: 25%;
   }
 }
-
 .abcd{
   background-color:#dff7f1 ;
   padding: 8px 28px;
@@ -967,5 +966,4 @@ body {
     font-family: "Raleway", sans-serif;
     text-align: center;
     column-gap: 20px;
-    /* font-co */
 }
