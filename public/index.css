@@ -966,8 +966,10 @@ body {
     border-radius: 50px;
     font-family: "Raleway", sans-serif;
     text-align: center;
-    column-gap: 20px;  
+    column-gap: 20px;
 }
+
+/* Pop-up */
 
 .{
   margin:0px;
@@ -977,7 +979,7 @@ body {
 }
 .center{
   position: absolute;
-  top:100%;
+  /* top: 130%; */
   left:50%;
   transform:translate(-50%,-50%);
 }
@@ -991,30 +993,30 @@ body {
   border:none;
   outline: none;
   cursor: pointer;
-  border-radius:5px; 
+  border-radius:5px;
 }
 .popup{
   position:absolute;
-  top:150%;
+  top:200%;
   left:50%;
   opacity: 0;
   transform: translate(-50%,-50%) scale(1.25);
-width:380px;
-padding: 20px 30px;
-background: #ffffff;
-box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
-transition: top 0ms ease-in-out 200ms,
-opacity 200ms ease-in-out 0ms,
-transform 20ms ease-in-out 0ms;
+  width: 390px;
+  padding: 20px 30px;
+  background: #ffffff;
+  box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+  transition: top 0ms ease-in-out 200ms,
+  opacity 200ms ease-in-out 0ms,
+  transform 20ms ease-in-out 0ms;
 }
 
 .popup.active{
-  top:50%;
+  top: 105%;
   opacity: 1;
   transform: translate(-50%,-50%) scale(1);
   transition: top 0ms ease-in-out 0ms,
-opacity 200ms ease-in-out 0ms,
-transform 20ms ease-in-out 0ms;
+  opacity 200ms ease-in-out 0ms,
+  transform 20ms ease-in-out 0ms;
 }
 
 .pop .close-btn{
@@ -1036,6 +1038,16 @@ transform 20ms ease-in-out 0ms;
   color:#009970;
   margin: 10px 0px 20px;
   font-size: 25px;
+}
+
+.submit-btn{
+  border: none;
+  background-color: #009970;
+  border-radius: 15px;
+  color: white;
+  width: 30%;
+  height: 70%;
+  font-weight: bold;
 }
 
 .popup .form .form-element{
@@ -1065,7 +1077,6 @@ font-size: 15px;
 background:#ffffff;
 color:#f5f5f5;
 border-radius:10px;
-cursor:pointer;
 }
 
 .popup .form .form-element a{
@@ -1075,8 +1086,4 @@ cursor:pointer;
   color:#1a79ca;
   text-decoration: none;
   font-weight: 600;
-
-
 }
-
-
