@@ -326,6 +326,7 @@ body {
   }
   #Main .container {
     padding-top: 80px;
+    justify-content: center;
   }
   #Main:before {
     content: "";
@@ -962,11 +963,12 @@ body {
 
 .abcd{
   background-color:#dff7f1 ;
-  padding: 8px 28px;
-    border-radius: 50px;
-    font-family: "Raleway", sans-serif;
-    text-align: center;
-    column-gap: 20px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  margin: 0px 30px;  
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  column-gap: 20px;
 }
 
 /* Pop-up */
