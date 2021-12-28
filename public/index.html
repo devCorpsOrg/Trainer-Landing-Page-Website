@@ -116,22 +116,24 @@
         </center>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body" style="margin-left: 5%;">
+      <form action="/addCandidate" method="post">
+      <div class="modal-body" style="margin-left: 5%;">        
         <label for="email">Email</label>
         <br>
-        <input type="text" id="email" placeholder="Enter Email" style="border: 1px solid #009970; border-radius: 5px; width: 80%;">
-        <br><br>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Email Id" style="border: 1px solid #009970; border-radius: 5px; width: 80%;">
+        <br>
         <label for="Name">Name</label>
         <br> 
-        <input type="text" id="Name" placeholder="Enter Name" style="border: 1px solid #009970; border-radius: 5px; width: 80%;">  
-        <br><br>
-        <label for="Name">Phone No.</label>
+        <input type="name" name="name" id="Name" class="form-control" placeholder="Name" style="border: 1px solid #009970; border-radius: 5px; width: 80%;">  
         <br>
-        <input type="text" id="Phone" placeholder="Enter Phone No." style="border: 1px solid #009970; border-radius: 5px; width: 80%;">
-      </div>
+        <label for="phone">Phone No.</label>
+        <br>
+        <input type="phone" name="phone" id="phone" class="form-control" placeholder="Enter Phone" placeholder="Contact No." style="border: 1px solid #009970; border-radius: 5px; width: 80%;">
+      </div>      
       <div class="modal-footer" style="margin-right: 40%;">
-          <button type="button" class="btn btn-success">Submit</button>
-      </div>
+      <button type="submit" class="btn btn-success">Submit</button>      
+      </div>      
+      </form>
     </div>
   </div>
 </div>
