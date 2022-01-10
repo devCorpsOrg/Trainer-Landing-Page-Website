@@ -610,6 +610,13 @@ body {
   }
   
   
+.abcd{
+	display: flex;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+  
   /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
@@ -915,7 +922,7 @@ body {
 }
 .ownerimg{
   margin-left:30px;
-  margin-top:30px;
+  margin-top:80px;
   width: 30vh;
   height: 30vh;
   border-radius: 50%;
@@ -950,29 +957,27 @@ body {
     margin-left: 36%;
   }
 }
-@media(max-width: 900px) and (min-width: 550px)
+  @media (min-width:300px) and (max-width:800px)
 {
     .ownerimg{
-      margin-left: 38%;
-
+       margin-left:23vw;
+  	  margin-top:2vh;
     }
-}
-@media(max-width: 550px) and (min-width: 100px)
-{
-  .ownerimg{
-    margin-left: 30%;
-  }
+    }
 }
 
 .abcd{
   background-color:#dff7f1 ;
   padding: 15px 30px;
   border-radius: 50px;
-  margin: 0px 30px;  
+  margin: 30px 30px;  
   font-family: "Raleway", sans-serif;
   text-align: center;
   column-gap: 20px;
+  display:flex;
+  justify-content:center;
 }
+
 
 /* Pop-up */
 

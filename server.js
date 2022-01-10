@@ -26,9 +26,9 @@ ag_router.post('/msg', urlencodedParser, function (req, res) {
     res.status(200).sendFile(path.join(__dirname, "public", "index.html"));    
 })
 ag_router.post('/addCandidate', urlencodedParser, function (req, res) {
-    console.log(req.body);
-    addCandidate(req.body.name, req.body.phone,req.body.email);
-    res.status(200).sendFile(path.join(__dirname, "public", "index.html"));    
+    console.log(req.body);    
+    addCandidate(req.body.name, req.body.phone,req.body.email);        
+    // res.status(200).sendFile(path.join(__dirname, "public", "index.html"));    
 })
 
 app.listen(port, '0.0.0.0', () => {
